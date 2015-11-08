@@ -1,0 +1,33 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+.active-option {
+	color:red;
+}
+
+#enchant-stage {
+        border:solid 1px #cccccc;
+        position:fixed;
+        margin: 0 auto;
+    }
+
+#enchant-stage {
+    	display: inline-block;
+    	border: 1px solid #333;
+    	width: 400px;
+    	height: 400px;
+    }
+    
+#enchant-stage canvas, #enchant-stage div {
+    	width: 100%;
+    	height: 100%;
+    	transform: scale(1);
+		-ms-transform: scale(1); 
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-o-transform: scale(1);
+    }
